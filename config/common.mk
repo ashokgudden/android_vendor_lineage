@@ -32,11 +32,12 @@ endif
 # endif
 
 # Allow recording ADB logcat during boot phase
+# Needs for MTP Dirty Hack
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0 \
     ro.secure=0 \
     persist.service.adb.enable=1 \
-    persist.service.debuggable=1
+    persist.sys.usb.config=mtp
 
 ifeq ($(BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE),)
   PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
