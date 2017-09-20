@@ -197,7 +197,8 @@ endif
 # Extra required packages
 PRODUCT_PACKAGES += \
     ScreenStabilization \
-    DelightSettings
+    DelightSettings \
+    Turbo
 
 # Openssh
 PRODUCT_PACKAGES += \
