@@ -240,6 +240,10 @@ PRODUCT_PACKAGES += \
 endif
 endif
 
+# Disable Rescue Party
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.disable_rescue=true
+
 DEVICE_PACKAGE_OVERLAYS += vendor/lineage/overlay/common
 
 PRODUCT_VERSION_MAJOR = 15
