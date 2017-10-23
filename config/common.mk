@@ -191,6 +191,11 @@ PRODUCT_PACKAGES += \
     mkfs.exfat
 endif
 
+# Extra required packages
+PRODUCT_PACKAGES += \
+    ScreenStabilization \
+    DelightSettings
+
 # Openssh
 PRODUCT_PACKAGES += \
     scp \
