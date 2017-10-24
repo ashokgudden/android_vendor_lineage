@@ -198,7 +198,8 @@ endif
 PRODUCT_PACKAGES += \
     ScreenStabilization \
     DelightSettings \
-    Turbo
+    Turbo \
+    OpenDelta
 
 # Openssh
 PRODUCT_PACKAGES += \
