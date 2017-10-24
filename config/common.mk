@@ -199,7 +199,8 @@ PRODUCT_PACKAGES += \
     ScreenStabilization \
     DelightSettings \
     Turbo \
-    OpenDelta
+    OpenDelta \
+    MatLog
 
 # Openssh
 PRODUCT_PACKAGES += \
