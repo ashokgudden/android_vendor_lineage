@@ -97,6 +97,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/org.lineageos.android.xml:system/etc/permissions/org.lineageos.android.xml
 
+# Prebuilt busybox fstrim command
+PRODUCT_COPY_FILES += \
+    vendor/lineage/prebuilt/bin/fstrim:system/bin/fstrim
+
 # Include AOSP fixes
 include vendor/lineage/config/aosp_fixes.mk
 
