@@ -97,6 +97,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/org.lineageos.android.xml:system/etc/permissions/org.lineageos.android.xml
 
+# Copy over the changelog to the device
+PRODUCT_COPY_FILES += \
+CHANGELOG.mkdn:system/etc/Changelog.txt
+
 # Prebuilt busybox fstrim command
 PRODUCT_COPY_FILES += \
     vendor/lineage/prebuilt/bin/fstrim:system/bin/fstrim
