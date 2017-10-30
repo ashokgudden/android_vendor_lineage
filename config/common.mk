@@ -220,7 +220,9 @@ PRODUCT_PACKAGES += \
     Turbo \
     OpenDelta \
     MatLog \
-    Phonograph
+    Phonograph \
+    OmniStyle \
+    OmniJaws
 
 # Openssh
 PRODUCT_PACKAGES += \
