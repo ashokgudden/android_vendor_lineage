@@ -155,7 +155,6 @@ PRODUCT_PACKAGES += \
     AudioFX \
     LineageSettingsProvider \
     LineageSetupWizard \
-    Eleven \
     ExactCalculator \
     Jelly \
     LockClock \
@@ -220,7 +219,8 @@ PRODUCT_PACKAGES += \
     DelightSettings \
     Turbo \
     OpenDelta \
-    MatLog
+    MatLog \
+    Phonograph
 
 # Openssh
 PRODUCT_PACKAGES += \
