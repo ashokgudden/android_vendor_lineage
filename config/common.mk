@@ -58,6 +58,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/backup.xml:system/etc/sysconfig/backup.xml
 
+# Unlimited Google Photos Space.
+PRODUCT_COPY_FILES += \
+    vendor/lineage/prebuilt/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml
+
 # Lineage-specific broadcast actions whitelist
 PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/lineage-sysconfig.xml:system/etc/sysconfig/lineage-sysconfig.xml
