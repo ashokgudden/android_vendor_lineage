@@ -226,6 +226,14 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     Launcher3
 
+# DU Utils Library
+PRODUCT_BOOT_JARS += \
+    org.dirtyunicorns.utils
+
+# DU Utils Library
+PRODUCT_PACKAGES += \
+    org.dirtyunicorns.utils
+
 # Openssh
 PRODUCT_PACKAGES += \
     scp \
