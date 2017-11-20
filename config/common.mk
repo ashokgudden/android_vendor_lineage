@@ -223,7 +223,8 @@ PRODUCT_PACKAGES += \
     MatLog \
     Phonograph \
     OmniStyle \
-    OmniJaws
+    OmniJaws \
+    Launcher3
 
 # Openssh
 PRODUCT_PACKAGES += \
