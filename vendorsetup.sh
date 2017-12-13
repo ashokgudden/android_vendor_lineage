@@ -1,1 +1,1 @@
-add_lunch_combo angler-userdebug
+add_lunch_combo oneplus2-userdebug

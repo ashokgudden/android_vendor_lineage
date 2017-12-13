@@ -16,17 +16,17 @@
 include vendor/nexus/configs/abc_phone.mk
 
 # Inherit AOSP device configuration for angler
-$(call inherit-product, device/huawei/angler/aosp_angler.mk)
+$(call inherit-product, device/oneplus/oneplus2/gzosp.mk)
 
 # Override AOSP build properties
-PRODUCT_NAME := angler
-PRODUCT_BRAND := google
-PRODUCT_DEVICE := angler
-PRODUCT_MODEL := Nexus 6P
-PRODUCT_MANUFACTURER := Huawei
+PRODUCT_NAME := oneplus2
+PRODUCT_BRAND := oneplus
+PRODUCT_DEVICE := oneplus2
+PRODUCT_MODEL := Oneplus2
+PRODUCT_MANUFACTURER := OnePlus
 
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=angler \
-    BUILD_FINGERPRINT=google/angler/angler:8.1.0/OPM1.171019.011/4448085:user/release-keys \
-    PRIVATE_BUILD_DESC="angler-user 8.1.0 OPM1.171019.011 4448085 release-keys"
+    PRODUCT_NAME=oneplus2 \
+    BUILD_FINGERPRINT=OnePlus/OnePlus2/OnePlus2:6.0.1/MMB29M/1447858500:user/release-keys \
+    PRIVATE_BUILD_DESC="OnePlus2-user 6.0.1 MMB29M 7 dev-keys"
